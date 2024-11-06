@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llmain"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#C20AE1"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:contentDescription="@string/Calculate"
+        android:src="@drawable/bmi" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Weight"
+        android:id="@+id/edtWeight"
+        android:inputType="number"
+        android:autofillHints="name" />
+      <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Height"
+        android:id="@+id/edtHeightFt"
+        android:inputType="number"
+          android:autofillHints="name"
+          />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Height_inc"
+        android:id="@+id/edtHeightIn"
+        android:inputType="number"
+        android:autofillHints="name"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Calculate"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnCalculate"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Result"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        android:id="@+id/txtResult"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/restart"
+        android:layout_marginTop="20dp"
+        android:text="Clear"/>
+
+
+</LinearLayout>
