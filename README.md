@@ -28,4 +28,4 @@ The **BMI Calculator App** is a simple Android application designed to calculate
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/BMICalculatorApp.git
+   git clone https://github.com/NasirAkra/BMICalculatorApp.git
